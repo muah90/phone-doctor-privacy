@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سياسة الخصوصية لتطبيق Phone Doctor من Solutions&Knowledge.">
+  <title>سياسة الخصوصية | Phone Doctor</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --primary: #1457a6;
+      --text: #202938;
+      --muted: #5c6676;
+      --surface: #ffffff;
+      --background: #f3f6fa;
+      --border: #dfe5ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Arabic", sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.85;
+    }
+    header {
+      padding: 34px 18px;
+      color: white;
+      background: #123b70;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: 2rem; }
+    header p { margin: 4px 0; }
+    main {
+      width: min(900px, calc(100% - 28px));
+      margin: 24px auto 40px;
+    }
+    .notice {
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      border: 1px solid #e4c77d;
+      border-radius: 10px;
+      background: #fff8e7;
+      color: #594516;
+    }
+    section {
+      padding: 24px;
+      margin-bottom: 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--surface);
+      overflow-wrap: anywhere;
+    }
+    h2 { color: var(--primary); margin-top: 0; }
+    h3 { margin-bottom: 6px; }
+    a { color: var(--primary); }
+    .meta { color: var(--muted); font-size: .95rem; }
+    .language { display: inline-block; margin-bottom: 12px; font-size: .85rem; font-weight: bold; color: var(--muted); }
+    footer { text-align: center; padding: 20px; color: var(--muted); }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      section { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Phone Doctor</h1>
+    <p>سياسة الخصوصية</p>
+    <p>Solutions&amp;Knowledge</p>
+  </header>
+
+  <main>
+    <div class="notice">
+      <strong>مسودة للمراجعة:</strong>
+      لا تعتمد هذه السياسة أو تنشرها قبل التأكد من أن جميع تفاصيلها مطابقة لسلوك التطبيق الفعلي.
+    </div>
+
+    <section dir="rtl" lang="ar">
+      <span class="language">النسخة العربية</span>
+      <h2>سياسة الخصوصية</h2>
+      <p class="meta">تاريخ إعداد المسودة: 14 أكتوبر 2026</p>
+
+      <h3>1. مقدمة</h3>
+      <p>
+        تطبيق Phone Doctor، الذي يُوزّع تحت العلامة التجارية
+        Solutions&amp;Knowledge، يساعد المستخدم على فحص مكونات الهاتف
+        المدعومة وتشخيص بعض مشكلات الجهاز والشبكة.
+      </p>
+      <p>
+        صُمم التطبيق لإجراء الفحوصات محليًا على الهاتف، ولا يعتمد على
+        خادم خاص لإرسال نتائج التشخيص ومعالجتها.
+      </p>
+
+      <h3>2. المعلومات التي يستخدمها التطبيق</h3>
+      <p>بحسب الفحص الذي يختاره المستخدم وإمكانات جهازه، قد يستخدم التطبيق:</p>
+      <ul>
+        <li>معلومات البطارية والذاكرة والتخزين والشاشة ومكونات الجهاز.</li>
+        <li>القراءات التي توفرها المستشعرات المدعومة.</li>
+        <li>الكاميرا أو الميكروفون عند تشغيل الاختبارات المرتبطة بهما وبعد منح الأذونات المطلوبة.</li>
+        <li>بعض معلومات الشريحة والشبكة الخلوية عند استخدام فحوصات SIM والشبكة.</li>
+        <li>حالة اتصال Wi-Fi والاتصال بالشبكة والإنترنت.</li>
+      </ul>
+      <p>
+        تختلف النتائج والبيانات المتاحة بحسب الجهاز وإصدار Android والأذونات
+        التي يمنحها المستخدم. التطبيق غير مصمم لجمع IMEI أو IMSI أو ICCID
+        أو أرقام الهاتف أو الرقم التسلسلي للجهاز أو عنوان MAC لشبكة Wi-Fi.
+      </p>
+
+      <h3>3. فحص الاتصال بالإنترنت</h3>
+      <p>
+        للتحقق من إمكانية الوصول إلى الإنترنت، يرسل التطبيق طلب اتصال بسيطًا
+        إلى الخدمة الخارجية التالية:
+      </p>
+      <p><code>https://connectivitycheck.gstatic.com/generate_204</code></p>
+      <p>
+        لا يُقصد من هذا الطلب إرسال نتائج التشخيص أو الصور أو التسجيلات أو
+        الملفات الشخصية. ومع ذلك، قد تتلقى الخدمة الخارجية معلومات تقنية
+        عن الاتصال، مثل عنوان IP، وفقًا لسياساتها الخاصة. لا يتحكم التطبيق
+        في معالجة هذه الخدمة لتلك المعلومات.
+      </p>
+
+      <h3>4. التخزين والمشاركة</h3>
+      <p>
+        تُعالج نتائج التشخيص محليًا داخل التطبيق. ولا يتعمد التطبيق رفع
+        تقارير التشخيص إلى خادم خاص به أو بيع المعلومات الشخصية.
+        وقد تُحفظ بعض الإعدادات ونتائج الجلسة محليًا على الجهاز.
+      </p>
+      <p>
+        لا يتعمد التطبيق إرسال جهات الاتصال أو الرسائل النصية أو كلمات المرور
+        أو الملفات الشخصية إلى خادم لمعالجتها تشخيصيًا.
+      </p>
+
+      <h3>5. الأذونات</h3>
+      <p>
+        قد تتطلب بعض الميزات أذونات الكاميرا والميكروفون وحالة الهاتف أو
+        الوصول إلى حالة الشبكة. تُستخدم الأذونات للوظائف المرتبطة بها.
+        يمكن إدارة الأذونات أو إلغاؤها من إعدادات Android، وقد يؤدي ذلك
+        إلى تعطيل بعض الاختبارات.
+      </p>
+      <p>
+        لا يحفظ التطبيق صورًا أو تسجيلات صوتية كجزء من اختبارات الكاميرا
+        والميكروفون، وفقًا للتصميم الحالي.
+      </p>
+
+      <h3>6. خصوصية الأطفال</h3>
+      <p>
+        التطبيق أداة عامة لتشخيص الأجهزة، ولم يُصمم لجمع المعلومات الشخصية
+        من الأطفال أو لاستخدام البيانات لأغراض الإعلان أو التتبع.
+      </p>
+
+      <h3>7. الأمان والاحتفاظ بالمعلومات</h3>
+      <p>
+        لا يحتفظ التطبيق بقاعدة بيانات مركزية لنتائج المستخدمين. وقد تبقى
+        المعلومات المحفوظة محليًا على الجهاز إلى أن يمسح المستخدم بيانات
+        التطبيق أو يزيل تثبيته، وفقًا لسلوك نظام Android.
+        ولا يمكن ضمان الأمان الكامل لأي برنامج.
+      </p>
+
+      <h3>8. تحديثات السياسة</h3>
+      <p>
+        قد تُحدّث هذه السياسة عند تغيير وظائف التطبيق أو أذوناته أو ممارساته
+        المتعلقة بالبيانات. يجب أن تتوافق النسخة المنشورة دائمًا مع السلوك
+        الفعلي للتطبيق.
+      </p>
+
+      <h3>9. التواصل</h3>
+      <p>للاستفسارات المتعلقة بالخصوصية، تواصل مع:</p>
+      <p><strong>Solutions&amp;Knowledge</strong></p>
+      <p>
+        البريد الإلكتروني:
+        <a href="mailto:muah010190@gmail.com">muah010190@gmail.com</a>
+      </p>
+    </section>
+
+    <section dir="ltr" lang="en">
+      <span class="language">English version</span>
+      <h2>Privacy Policy</h2>
+      <p class="meta">Draft date: October 14, 2026</p>
+
+      <h3>1. Introduction</h3>
+      <p>
+        Phone Doctor is a mobile diagnostic application distributed under
+        the Solutions&amp;Knowledge brand. It helps users examine supported
+        device components and diagnose certain device and network issues.
+      </p>
+      <p>
+        The app is designed to perform diagnostics locally on the device
+        and does not rely on a dedicated backend server to receive and
+        process diagnostic results.
+      </p>
+
+      <h3>2. Information Used by the App</h3>
+      <p>
+        Depending on the selected test and device capabilities, the app
+        may use battery, memory, storage, display, hardware, sensor,
+        camera, microphone, SIM, cellular-network, Wi-Fi, and connectivity
+        information.
+      </p>
+      <p>
+        Available information varies by device, Android version, and
+        granted permissions. The app is not designed to collect IMEI,
+        IMSI, ICCID, phone numbers, device serial numbers, or Wi-Fi MAC
+        addresses.
+      </p>
+
+      <h3>3. Internet Connectivity Check</h3>
+      <p>
+        To check internet reachability, the app sends a lightweight
+        connectivity request to:
+      </p>
+      <p><code>https://connectivitycheck.gstatic.com/generate_204</code></p>
+      <p>
+        This request is not intended to transmit diagnostic results,
+        images, recordings, or personal files. The external service may
+        receive technical connection information, such as an IP address,
+        under its own policies. The app does not control the external
+        service's processing of that information.
+      </p>
+
+      <h3>4. Storage and Sharing</h3>
+      <p>
+        Diagnostic results are processed locally within the app. The app
+        is not designed to upload diagnostic reports to its own backend
+        or sell personal information. Some settings and session results
+        may be stored locally on the device.
+      </p>
+      <p>
+        The app is not designed to send contacts, SMS messages, passwords,
+        or personal files to a server for diagnostic processing.
+      </p>
+
+      <h3>5. Permissions</h3>
+      <p>
+        Some features may require camera, microphone, phone-state, or
+        network-state permissions. These permissions support their
+        associated functions. Users can manage or revoke permissions in
+        Android settings, although some tests may then be unavailable.
+      </p>
+      <p>
+        The app does not save camera images or microphone recordings as
+        part of its diagnostic tests, according to its current design.
+      </p>
+
+      <h3>6. Children's Privacy</h3>
+      <p>
+        The app is a general-purpose diagnostic utility and is not
+        designed to collect children's personal information or use data
+        for advertising or tracking.
+      </p>
+
+      <h3>7. Security and Retention</h3>
+      <p>
+        The app does not maintain a central database of user diagnostic
+        results. Information stored locally may remain on the device
+        until the user clears the app's data or uninstalls it, subject
+        to Android behavior. No software can guarantee complete security.
+      </p>
+
+      <h3>8. Policy Updates</h3>
+      <p>
+        This policy may be updated when the app's features, permissions,
+        or data practices change. The published policy must remain
+        consistent with the app's actual behavior.
+      </p>
+
+      <h3>9. Contact</h3>
+      <p>For privacy questions, contact:</p>
+      <p><strong>Solutions&amp;Knowledge</strong></p>
+      <p>
+        Email:
+        <a href="mailto:muah010190@gmail.com">muah010190@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Solutions&amp;Knowledge — Phone Doctor
+  </footer>
+</body>
+</html>
